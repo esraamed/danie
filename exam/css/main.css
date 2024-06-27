@@ -1,0 +1,457 @@
+#home{
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.esraa{
+    height: 60px;
+}
+
+.layer{
+    background-color: rgba(0, 0, 0,.7);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.navbar-toggler:hover {
+    background-color: white;
+    
+}
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    --bs-navbar-toggler-focus-width: 0rem;
+}
+.home-cont h1{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.navbar-nav .nav-link.active::after {
+    
+
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+.animation::after{
+    content: '';
+    animation-name: jobs;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+} 
+@keyframes jobs{
+    0%{
+        content: 'Designer|';
+    }
+    
+    30%{
+        content: "Designer|";
+    }
+    31%{
+        content: "Designe|";
+    }
+    32%{
+        content: "Design|";
+    }
+    33%{
+        content: "Desig|";
+    }
+    34%{
+        content: "Desi|";
+    }
+    35%{
+        content: "Des|";
+    }
+    36%{
+        content: "De|";
+    }
+    37%{
+        content:"D|" ;
+    }
+    38%{
+        content: "|";
+    }
+    39%{
+        content: "Developer|";
+    }
+    69%{
+        content: "Developer|";
+    }
+    70%{
+        content: "Develope|";
+    }
+    71%{
+        content: "Develop|";
+    }
+    72%{
+        content: "Develo|";
+    }
+    73%{
+        content: "Devel|";
+    }
+    74%{
+        content: "Deve|";
+    }
+    75%{
+        content: "Dev|";
+    }
+    76%{
+        content:"De|" ;
+    }
+    77%{
+        content: "D|";
+    }
+    78%{
+        content:"|" ;
+    }
+    79%{
+        content: "Larry Daniels|";
+    }
+    86%{
+        content: "Larry Daniels|";
+    }
+    87%{
+         content: "Larry Daniel|";
+    }
+    88%{
+        content: "Larry Danie|";
+    }
+    89%{
+        content: "Larry Dani|";
+    }
+    90%{
+        content: "Larry Dan|";
+    }
+    91%{
+        content: "Larry Da|";
+    }
+    92%{
+        content:"Larry D|" ;
+    }
+    93%{
+        content: "Larry|";
+    }
+    94%{
+        content: "Larr|";
+    }
+    95%{
+        content: "Lar|";
+    }
+    96%{
+        content: "La|";
+    }
+    97%{
+        content: "L|";
+    }
+    98%{
+        content: "|";
+    }
+
+}  
+.icon-border{
+    width: 30px;
+    height: 30px;
+}
+#about span{
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+button.btn2.bg-white:hover  {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+button.btn2.text-black:hover{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+
+
+button.btn1.bg-black:hover  {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+button.btn1.text-white:hover {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+#about  .par{
+    line-height: 1.8;
+    font-weight: 400;
+    color: #748182;
+}
+
+
+#about .img::after{
+    content: '';
+    position: absolute;
+    bottom: -5%;
+    left: -5%;
+    width: 70%;
+    height: 70%;
+    z-index: -1;
+    
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+}
+#services h1{
+    background-color: rgba(0, 0, 0, 0);
+}
+#services .services-cont h1::after{
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.icon-div{
+    width: 70px;
+    height: 70px;
+}
+.inner p{
+    line-height: 2;
+}
+.inner:hover{
+    
+    .bg-light {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+    } 
+
+.text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+   
+}
+#works h1{
+    background-color: rgba(0, 0, 0, 0);
+}
+#works .portfolio-cont h1::after{
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.w-fit-content {
+    width:fit-content
+
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-link-active-bg: #fff;
+}
+.nav-link{
+    color: var(--bs-nav-link-color);
+    --bs-link-color: black;
+}
+.nav {
+    
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-link-hover-color: black;
+
+    --bs-link-color: black;}
+#works ul li .active::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+
+}
+.port-layer{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, .9);
+    opacity: 0;
+    
+    transition: .1s all ;
+    
+}
+
+.card-cont:hover{
+    border: 6px #D7D5D6 solid;
+}
+.card-cont:hover .port-layer {
+    opacity: 1;
+    
+   
+}
+.layer-text .icon-border{
+    width: 30px;
+    height: 30px;
+}
+
+.ico:hover{
+    .text-white {
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    }
+    .bg-black {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    }
+    .border-light {
+        --bs-border-opacity: 1;
+        border-color: rgba(var(--bs-black-rgb), var(--bs-border-opacity)) !important;
+    }
+  }  
+  
+#client h3{
+    background-color: rgba(0, 0, 0, 0);
+}
+#client  h3::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+   
+
+}
+.carousel-item img{
+    width: 100px;
+    height: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #748182;
+}
+#contact h1{
+    background-color: rgba(0, 0, 0, 0);
+}
+#contact  h1::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    
+   bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.contact-text:hover{
+    
+    .bg-light {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+    } 
+
+.text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+   
+
+}
+#team h1{
+    background-color: rgba(0, 0, 0, 0);
+}
+#team  h1::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    
+   bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+
+}
+.blog-layer {
+    position: absolute;
+    inset: 12px;
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transform: rotateY(180deg) scale(0);
+    transition: 1s all;
+   
+}
+
+
+
+
+.bloog:hover .blog-layer {
+    opacity: 1;
+    transform: rotateY(0deg) scale(1);
+}
+.bloog:hover .blog-img{
+    transform: scale(1.01);
+}
+.blog-text:hover  .blog-img{
+    transform: scale(-1.02);
+}
+
+
+.icoon:hover{
+   
+    .text-white {
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    }
+    
+    
+  } 
+  .icoon:hover{
+    .bg-black {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+    }
+  }
+
